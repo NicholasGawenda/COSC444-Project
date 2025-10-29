@@ -1,0 +1,10 @@
+Citation,Year Published,Which is introduced first,Are left grammars discussed in the same chapter,Page count of right grammars in the chapter they're introduced,Page count of left grammars in the chapter they're introduced,Stated challenges of right grammars,Stated challenges of left grammars,
+"D’Souza, D., & Shankar, P. (2012). Modern applications of automata theory. World Scientific.",2012,Right,No,,,,,
+"Anderson, J. A. (2006). Automata Theory with Modern Applications (1st ed.). Cambridge University Press. https://doi.org/10.1017/CBO9780511607202",2006,Right,No,,,,,
+"Levelt, W. J. M. (2008). Formal Grammars in Linguistics and Psycholinguistics: Volume 1: An Introduction to the Theory of Formal Languages and Automata, Volume 2: Applications in Linguistic Theory, Volume 3: Psycholinguistic Applications (1st ed.). John Benjamins Publishing Company.",2008,Right,Yes,1,1,No,No,
+"Levelt, W. J. M. (2008). An Introduction to the Theory of Formal Languages and Automata (1st ed.). John Benjamins Publishing Company. https://doi.org/10.1075/z.143",2008,Right,Yes,2,1,No,No,
+"Salomaa, A. (1985). Computation and automata. Cambridge University Press.",1985,Right,Yes,1,1,No,No,
+"Linz, P., & Rodger, S. H. (2022). An Introduction to Formal Languages and Automata (Seventh edition). Jones & Bartlett Learning, LLC.",2022,Right,Yes,7,4,No,No,
+"Nelson, R. J. (1967). Introduction to automata. Wiley.",1967,Right,Yes,1,1,No,No,
+"Kelley, D. (1995). Automata and formal languages : an introduction. Prentice Hall.",1995,Right,Yes,1,1,No,No,They used right grammars before but didn't explicitly name them as such
+"Harrison, M. A. (1965). Introduction to switching and automata theory. McGraw-Hill.",1965,Right,Yes,2,2,No,No,
