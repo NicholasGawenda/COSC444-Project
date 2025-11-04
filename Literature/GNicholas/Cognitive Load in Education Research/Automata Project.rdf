@@ -1,0 +1,899 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10648-021-09624-7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1040-726X,%201573-336X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Skulmowski</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Kate Man</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:title>Understanding Cognitive Load in Digital and Online Learning: a New Perspective on Extraneous Cognitive Load</dc:title>
+        <dcterms:abstract>Abstract
+            Cognitive load theory has been a major influence for the field of educational psychology. One of the main guidelines of the theory is that extraneous cognitive load should be reduced to leave sufficient cognitive resources for the actual learning to take place. In recent years, research regarding various design factors, in particular from the field of digital and online learning, have challenged this assumption. Interactive learning media, immersion, disfluency, realism, and redundant elements constitute five major challenges, since these design factors have been shown to induce task-irrelevant cognitive load, i.e., extraneous load, while still promoting motivation and learning. However, currently there is no unified approach to integrate such effects into cognitive load theory. By including aspects of constructive alignment, an approach aimed at fostering deep forms of learning in order to achieve specific learning outcomes, we devise a strategy to balance cognitive load in digital learning. Most importantly, we suggest considering both the positive and negative effects on cognitive load that certain design factors of digital learning can cause. In addition, a number of research results highlight that some types of positive effects of digital learning can only be detected using a suitable assessment method. This strategy of aligning cognitive load with desired learning outcomes will be useful for formulating theory-guided and empirically testable hypotheses, but can be particularly helpful for practitioners to embrace emerging technologies while minimizing potential extraneous drawbacks.</dcterms:abstract>
+        <dc:date>03/2022</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Understanding Cognitive Load in Digital and Online Learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10648-021-09624-7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-12 03:35:16</dcterms:dateSubmitted>
+        <bib:pages>171-196</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1040-726X,%201573-336X">
+        <prism:volume>34</prism:volume>
+        <dc:title>Educational Psychology Review</dc:title>
+        <dc:identifier>DOI 10.1007/s10648-021-09624-7</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Educ Psychol Rev</dcterms:alternative>
+        <dc:identifier>ISSN 1040-726X, 1573-336X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/10.1111/mbe.12369">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1751-2271,%201751-228X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Skulmowski</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Learners Emphasize Their Intrinsic Load if Asked About It First: Communicative Aspects of Cognitive Load Measurement</dc:title>
+        <dcterms:abstract>Abstract
+            Cognitive load measurement is an important aspect of educational research. Current cognitive load surveys differentiate between intrinsic cognitive load (resulting from the complexity of learning materials) and their extraneous cognitive load (which is increased by a demanding design). In two studies, order effects of cognitive load subscales are demonstrated. Asking learners regarding their intrinsic load first increases their responses concerning this type of load, with little effect on extraneous load ratings. This effect can be replicated even when extraneous load is intentionally induced. This finding has important implications for cognitive load research, as the order of surveys appears to bias cognitive load ratings. As most cognitive load research is conducted to find ways of reducing extraneous load, it may be reasonable to carefully consider whether and when intrinsic load items are included in studies. Generally, the results show that study participants seem to emphasize certain demands, similar to a dialogue.
+          , 
+            LAY ABSTRACT
+            Researchers and practitioners wishing to evaluate the quality of learning materials or methods often use cognitive load surveys that ask learners concerning the cognitive demands they experienced. Some surveys distinguish between different types of cognitive load. In two studies, it is shown that asking learners for the complexity of a task before other demands leads them to emphasize this aspect, regardless of whether other types of cognitive load are induced.</dcterms:abstract>
+        <dc:date>08/2023</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Learners Emphasize Their Intrinsic Load if Asked About It First</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1111/mbe.12369</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:57:02</dcterms:dateSubmitted>
+        <bib:pages>165-169</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1751-2271,%201751-228X">
+        <prism:volume>17</prism:volume>
+        <dc:title>Mind, Brain, and Education</dc:title>
+        <dc:identifier>DOI 10.1111/mbe.12369</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Mind Brain and Education</dcterms:alternative>
+        <dc:identifier>ISSN 1751-2271, 1751-228X</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.mdpi.com/1424-8220/20/17/4833">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1424-8220"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Romine</foaf:surname>
+                        <foaf:givenName>William L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schroeder</foaf:surname>
+                        <foaf:givenName>Noah L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Graft</foaf:surname>
+                        <foaf:givenName>Josephine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Fan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sadeghi</foaf:surname>
+                        <foaf:givenName>Reza</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zabihimayvan</foaf:surname>
+                        <foaf:givenName>Mahdieh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kadariya</foaf:surname>
+                        <foaf:givenName>Dipesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Banerjee</foaf:surname>
+                        <foaf:givenName>Tanvi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Using Machine Learning to Train a Wearable Device for Measuring Students’ Cognitive Load during Problem-Solving Activities Based on Electrodermal Activity, Body Temperature, and Heart Rate: Development of a Cognitive Load Tracker for Both Personal and Classroom Use</dc:title>
+        <dcterms:abstract>Automated tracking of physical fitness has sparked a health revolution by allowing individuals to track their own physical activity and health in real time. This concept is beginning to be applied to tracking of cognitive load. It is well known that activity in the brain can be measured through changes in the body’s physiology, but current real-time measures tend to be unimodal and invasive. We therefore propose the concept of a wearable educational fitness (EduFit) tracker. We use machine learning with physiological data to understand how to develop a wearable device that tracks cognitive load accurately in real time. In an initial study, we found that body temperature, skin conductance, and heart rate were able to distinguish between (i) a problem solving activity (high cognitive load), (ii) a leisure activity (moderate cognitive load), and (iii) daydreaming (low cognitive load) with high accuracy in the test dataset. In a second study, we found that these physiological features can be used to predict accurately user-reported mental focus in the test dataset, even when relatively small numbers of training data were used. We explain how these findings inform the development and implementation of a wearable device for temporal tracking and logging a user’s learning activities and cognitive load.</dcterms:abstract>
+        <dc:date>2020-08-27</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Using Machine Learning to Train a Wearable Device for Measuring Students’ Cognitive Load during Problem-Solving Activities Based on Electrodermal Activity, Body Temperature, and Heart Rate</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1424-8220/20/17/4833</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:56:48</dcterms:dateSubmitted>
+        <bib:pages>4833</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1424-8220">
+        <prism:volume>20</prism:volume>
+        <dc:title>Sensors</dc:title>
+        <dc:identifier>DOI 10.3390/s20174833</dc:identifier>
+        <prism:number>17</prism:number>
+        <dcterms:alternative>Sensors</dcterms:alternative>
+        <dc:identifier>ISSN 1424-8220</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10648-023-09738-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>35</prism:volume>
+                <dc:title>Educational Psychology Review</dc:title>
+                <dc:identifier>DOI 10.1007/s10648-023-09738-0</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Educ Psychol Rev</dcterms:alternative>
+                <dc:identifier>ISSN 1040-726X, 1573-336X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krieglstein</foaf:surname>
+                        <foaf:givenName>Felix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beege</foaf:surname>
+                        <foaf:givenName>Maik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rey</foaf:surname>
+                        <foaf:givenName>Günter Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanchez-Stockhammer</foaf:surname>
+                        <foaf:givenName>Christina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider</foaf:surname>
+                        <foaf:givenName>Sascha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Development and Validation of a Theory-Based Questionnaire to Measure Different Types of Cognitive Load</dc:title>
+        <dcterms:abstract>Abstract
+            According to cognitive load theory, learning can only be successful when instructional materials and procedures are designed in accordance with human cognitive architecture. In this context, one of the biggest challenges is the accurate measurement of the different cognitive load types as these are associated with various activities during learning. Building on psychometric limitations of currently available questionnaires, a new instrument for measuring the three types of cognitive load—intrinsic, extraneous, and germane cognitive load—is developed and validated relying on a set of five empirical studies. In Study 1, a principal component analysis revealed a three-component model which was subsequently confirmed using a confirmatory factor analysis (Study 2). Finally, across three experiments (Studies 3–5), the questionnaire was shown to be sensitive to changes in cognitive load supporting its predictive validity. The quality of the cognitive load questionnaire was underlined by satisfactory internal consistencies across all studies. In sum, the proposed questionnaire can be used in experimental settings to measure the different types of cognitive load in a valid and reliable manner. The construction and validation process of the questionnaire has also shown that the construct germane cognitive load remains controversial concerning its measurement and theoretical embedding in cognitive load theory.</dcterms:abstract>
+        <dc:date>03/2023</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10648-023-09738-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:56:22</dcterms:dateSubmitted>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.frontiersin.org/articles/10.3389/feduc.2021.647097/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2504-284X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zu</foaf:surname>
+                        <foaf:givenName>Tianlong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Munsell</foaf:surname>
+                        <foaf:givenName>Jeremy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rebello</foaf:surname>
+                        <foaf:givenName>N. Sanjay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Subjective Measure of Cognitive Load Depends on Participants’ Content Knowledge Level</dc:title>
+        <dcterms:abstract>Cognitive load theory (CLT) posits the classic view that cognitive load (CL) has three-components: intrinsic, extraneous and germane. Prior research has shown that subjective ratings are valid measures of different CL subtypes. To a lesser degree, how the validity of these subjective ratings depends on learner characteristics has not been studied. In this research, we explored the extent to which the validity of a specific set of subjective measures depends upon learners’ prior knowledge. Specifically, we developed an eight-item survey to measure the three aforementioned subtypes of CL perceived by participants in a testing environment. In the first experiment (
+              N
+              = 45) participants categorized the eight items into different groups based on similarity of themes. Most of the participants sorted the items consistent with a threefold construct of the CLT. Interviews with a subgroup (
+              N
+              = 13) of participants provided verbal evidence corroborating their understanding of the items that was consistent with the classic view of the CLT. In the second experiment (
+              N
+              = 139) participants completed the survey twice after taking a conceptual test in a pre/post setting. A principal component analysis (PCA) revealed a two-component structure for the survey when the content knowledge level of the participants was initially lower, but a three-component structure when the content knowledge of the participants was improved to a higher level. The results seem to suggest that low prior knowledge participants failed to differentiate the items targeting the intrinsic load from those measuring the extraneous load. In the third experiment (
+              N
+              = 40) participants completed the CL survey after taking a test consisting of problems imposing different levels of intrinsic and extraneous load. The results reveals that how participants rated on the CL survey was consistent with how each CL subtype was manipulated. Thus, the CL survey developed is decently effective measuring different types of CL. We suggest instructors to use this instrument after participants have established certain level of relevant knowledge.</dcterms:abstract>
+        <dc:date>2021-5-10</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/articles/10.3389/feduc.2021.647097/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:55:53</dcterms:dateSubmitted>
+        <bib:pages>647097</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2504-284X">
+        <prism:volume>6</prism:volume>
+        <dc:title>Frontiers in Education</dc:title>
+        <dc:identifier>DOI 10.3389/feduc.2021.647097</dc:identifier>
+        <dcterms:alternative>Front. Educ.</dcterms:alternative>
+        <dc:identifier>ISSN 2504-284X</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://doi.apa.org/doi/10.1037/edu0000441">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1939-2176,%200022-0663"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zu</foaf:surname>
+                        <foaf:givenName>Tianlong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hutson</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Loschky</foaf:surname>
+                        <foaf:givenName>Lester C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rebello</foaf:surname>
+                        <foaf:givenName>N. Sanjay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Using eye movements to measure intrinsic, extraneous, and germane load in a multimedia learning environment.</dc:title>
+        <dc:date>10/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.apa.org/doi/10.1037/edu0000441</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:55:37</dcterms:dateSubmitted>
+        <dc:rights>http://www.apa.org/pubs/journals/resources/open-access.aspx</dc:rights>
+        <bib:pages>1338-1352</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1939-2176,%200022-0663">
+        <prism:volume>112</prism:volume>
+        <dc:title>Journal of Educational Psychology</dc:title>
+        <dc:identifier>DOI 10.1037/edu0000441</dc:identifier>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Journal of Educational Psychology</dcterms:alternative>
+        <dc:identifier>ISSN 1939-2176, 0022-0663</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s11423-019-09681-4">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1042-1629,%201556-6501"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castro-Meneses</foaf:surname>
+                        <foaf:givenName>Leidy J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kruger</foaf:surname>
+                        <foaf:givenName>Jan-Louis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Doherty</foaf:surname>
+                        <foaf:givenName>Stephen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Validating theta power as an objective measure of cognitive load in educational video</dc:title>
+        <dc:date>2/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s11423-019-09681-4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:55:17</dcterms:dateSubmitted>
+        <bib:pages>181-202</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1042-1629,%201556-6501">
+        <prism:volume>68</prism:volume>
+        <dc:title>Educational Technology Research and Development</dc:title>
+        <dc:identifier>DOI 10.1007/s11423-019-09681-4</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Education Tech Research Dev</dcterms:alternative>
+        <dc:identifier>ISSN 1042-1629, 1556-6501</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/10.1002/acp.3100">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0888-4080,%201099-0720"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Park</foaf:surname>
+                        <foaf:givenName>Babette</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brünken</foaf:surname>
+                        <foaf:givenName>Roland</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Rhythm Method: A New Method for Measuring Cognitive Load—An Experimental Dual‐Task Study</dc:title>
+        <dcterms:abstract>Summary
+            
+              The present study joins a series of studies that used the dual‐task paradigm to measure cognitive load while learning with multimedia instruction. The goal of the current work was to develop a secondary task, to measure cognitive load in a direct and continuous way using intra‐individual, behavioral measures. The new task is achieved by utilizing internalized cues. More specifically, a previously practiced rhythm is executed continuously by foot tapping (secondary task) while learning (primary task). Precision of the executed rhythm was used as indicator for cognitive load—the higher the precision, the lower cognitive load. The suitability of this method was examined by two multimedia experiments (n
+              1
+               = 30; n
+              2
+               = 50). Cognitive load was manipulated by seductive details (Experiment 1: with vs. without) and modality (Experiment 2: on‐screen text vs. narration). Learners who learned under low cognitive load conditions (Experiment 1: without seductive details; Experiment 2: narration) showed significantly higher rhythm precision. These results provide evidence that rhythm precision allows for a precise and continuous measurement of cognitive load during learning. Copyright © 2014 John Wiley &amp; Sons, Ltd.</dcterms:abstract>
+        <dc:date>03/2015</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The Rhythm Method</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1002/acp.3100</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:54:21</dcterms:dateSubmitted>
+        <dc:rights>http://onlinelibrary.wiley.com/termsAndConditions#vor</dc:rights>
+        <bib:pages>232-243</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0888-4080,%201099-0720">
+        <prism:volume>29</prism:volume>
+        <dc:title>Applied Cognitive Psychology</dc:title>
+        <dc:identifier>DOI 10.1002/acp.3100</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Applied Cognitive Psychology</dcterms:alternative>
+        <dc:identifier>ISSN 0888-4080, 1099-0720</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10639-022-11035-2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1360-2357,%201573-7608"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dönmez</foaf:surname>
+                        <foaf:givenName>Onur</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akbulut</foaf:surname>
+                        <foaf:givenName>Yavuz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Telli</foaf:surname>
+                        <foaf:givenName>Esra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaptan</foaf:surname>
+                        <foaf:givenName>Miray</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Özdemir</foaf:surname>
+                        <foaf:givenName>İbrahim H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erdem</foaf:surname>
+                        <foaf:givenName>Mukaddes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>In search of a measure to address different sources of cognitive load in computer-based learning environments</dc:title>
+        <dc:date>08/2022</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10639-022-11035-2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:54:07</dcterms:dateSubmitted>
+        <bib:pages>10013-10034</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1360-2357,%201573-7608">
+        <prism:volume>27</prism:volume>
+        <dc:title>Education and Information Technologies</dc:title>
+        <dc:identifier>DOI 10.1007/s10639-022-11035-2</dc:identifier>
+        <prism:number>7</prism:number>
+        <dcterms:alternative>Educ Inf Technol</dcterms:alternative>
+        <dc:identifier>ISSN 1360-2357, 1573-7608</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.mdpi.com/2076-3425/15/2/203">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2076-3425"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gkintoni</foaf:surname>
+                        <foaf:givenName>Evgenia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Antonopoulou</foaf:surname>
+                        <foaf:givenName>Hera</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sortwell</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Halkiopoulos</foaf:surname>
+                        <foaf:givenName>Constantinos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Challenging Cognitive Load Theory: The Role of Educational Neuroscience and Artificial Intelligence in Redefining Learning Efficacy</dc:title>
+        <dcterms:abstract>Background/Objectives: This systematic review integrates Cognitive Load Theory (CLT), Educational Neuroscience (EdNeuro), Artificial Intelligence (AI), and Machine Learning (ML) to examine their combined impact on optimizing learning environments. It explores how AI-driven adaptive learning systems, informed by neurophysiological insights, enhance personalized education for K-12 students and adult learners. This study emphasizes the role of Electroencephalography (EEG), Functional Near-Infrared Spectroscopy (fNIRS), and other neurophysiological tools in assessing cognitive states and guiding AI-powered interventions to refine instructional strategies dynamically. Methods: This study reviews n = 103 papers related to the integration of principles of CLT with AI and ML in educational settings. It evaluates the progress made in neuroadaptive learning technologies, especially the real-time management of cognitive load, personalized feedback systems, and the multimodal applications of AI. Besides that, this research examines key hurdles such as data privacy, ethical concerns, algorithmic bias, and scalability issues while pinpointing best practices for robust and effective implementation. Results: The results show that AI and ML significantly improve Learning Efficacy due to managing cognitive load automatically, providing personalized instruction, and adapting learning pathways dynamically based on real-time neurophysiological data. Deep Learning models such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Support Vector Machines (SVMs) improve classification accuracy, making AI-powered adaptive learning systems more efficient and scalable. Multimodal approaches enhance system robustness by mitigating signal variability and noise-related limitations by combining EEG with fMRI, Electrocardiography (ECG), and Galvanic Skin Response (GSR). Despite these advances, practical implementation challenges remain, including ethical considerations, data security risks, and accessibility disparities across learner demographics. Conclusions: AI and ML are epitomes of redefinition potentials that solid ethical frameworks, inclusive design, and scalable methodologies must inform. Future studies will be necessary for refining pre-processing techniques, expanding the variety of datasets, and advancing multimodal neuroadaptive learning for developing high-accuracy, affordable, and ethically responsible AI-driven educational systems. The future of AI-enhanced education should be inclusive, equitable, and effective across various learning populations that would surmount technological limitations and ethical dilemmas.</dcterms:abstract>
+        <dc:date>2025-02-15</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Challenging Cognitive Load Theory</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2076-3425/15/2/203</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:53:35</dcterms:dateSubmitted>
+        <bib:pages>203</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2076-3425">
+        <prism:volume>15</prism:volume>
+        <dc:title>Brain Sciences</dc:title>
+        <dc:identifier>DOI 10.3390/brainsci15020203</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Brain Sciences</dcterms:alternative>
+        <dc:identifier>ISSN 2076-3425</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13535">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0007-1013,%201467-8535"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pei</foaf:surname>
+                        <foaf:givenName>Leisi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jong</foaf:surname>
+                        <foaf:givenName>Morris Siu‐Yung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shang</foaf:surname>
+                        <foaf:givenName>Junjie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ouyang</foaf:surname>
+                        <foaf:givenName>Guang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Design and validation of an electroencephalogram‐supported approach to tracking real‐time cognitive load variations for adaptive video‐based learning</dc:title>
+        <dcterms:abstract>Cognitive load is a critical internal state associated with learners' learning process and significantly influences learning outcomes. With the worldwide popularity of video‐based learning (VBL), tracking real‐time cognitive load variations becomes more and more important for the timely provision of adaptive learning support during the learning process. This study proposed and validated an electroencephalogram (EEG)‐supported approach to tracking real‐time cognitive load variations during continuous VBL. We recruited 108 healthy adult participants to watch a specially designed video lecture with a sequence of interconnected slides of equal length. EEG signals were continuously recorded throughout the session. The video lecture was designed with varying levels of content difficulty (ie, rated from 1 to 5) across slides and was narrated at three different speeds (ie, slow, normal and fast) to induce cognitive load variations. For each slide, the cognitive load was quantified using both subjective ratings (ie, self‐reported difficulty) and an EEG‐derived measure (ie, alpha power). Through linear mixed model analysis, we demonstrated the feasibility of using alpha power to track real‐time cognitive load variations during the continuous VBL process after controlling the effect of mental fatigue. This study provides a foundation for developing learning enhancement technologies that enable the timely provision of adaptive learning support in VBL.
+            
+            
+              
+              
+                
+                  
+                    Practitioner notes
+                  
+                  
+                    What is already known about this topic
+                    
+                      
+                        Video‐based learning has become a prevailing learning method for the current generation.
+                      
+                      
+                        Tracking the internal learning state of learners is essential for the timely provision of adaptive learning support during the video‐based learning process.
+                      
+                      
+                        Cognitive load is a critical aspect of internal learning state.
+                      
+                      
+                        While EEG has been proven to be valuable in assessing average cognitive load of a task, few studies have investigated the feasibility of utilizing EEG to track real‐time cognitive load variations in a task.
+                      
+                    
+                  
+                  
+                    What this paper adds
+                    
+                      
+                        An EEG‐supported approach was proposed to track real‐time cognitive load variations in video‐based learning.
+                      
+                      
+                        A high consistency was found between subjective ratings and EEG‐derived measure of cognitive load.
+                      
+                      
+                        The presence of mental fatigue exerted a significant impact on EEG‐derived measure of cognitive load.
+                      
+                    
+                  
+                  
+                    Implications for practice and/or policy
+                    
+                      
+                        Generative AI can be leveraged to facilitate mass production of lectures required in the approach.
+                      
+                      
+                        Real‐time tracking of cognitive load variations in video‐based learning enables the timely provision of adaptive learning supports.
+                      
+                      
+                        Additional research is warranted to mitigate the effect of mental fatigue on real‐time tracking of cognitive load variations.</dcterms:abstract>
+        <dc:date>07/2025</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13535</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:53:19</dcterms:dateSubmitted>
+        <bib:pages>1553-1572</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0007-1013,%201467-8535">
+        <prism:volume>56</prism:volume>
+        <dc:title>British Journal of Educational Technology</dc:title>
+        <dc:identifier>DOI 10.1111/bjet.13535</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Brit J Educational Tech</dcterms:alternative>
+        <dc:identifier>ISSN 0007-1013, 1467-8535</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://dl.acm.org/doi/10.1145/3483843">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1946-6226,%201946-6226"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duran</foaf:surname>
+                        <foaf:givenName>Rodrigo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zavgorodniaia</foaf:surname>
+                        <foaf:givenName>Albina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sorva</foaf:surname>
+                        <foaf:givenName>Juha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Cognitive Load Theory in Computing Education Research: A Review</dc:title>
+        <dcterms:abstract>One of the most commonly cited theories in computing education research is cognitive load theory (CLT), which explains how learning is affected by the bottleneck of human working memory and how teaching may work around that limitation. The theory has evolved over a number of decades, addressing shortcomings in earlier versions; other issues remain and are being debated by the CLT community. We conduct a systematic mapping review of how CLT has been used across a number of leading computing education research (CER) forums since 2010. We find that the most common reason to cite CLT is to mention it briefly as a design influence; authors predominantly cite old versions of the theory; hypotheses phrased in terms of cognitive load components are rare; and only a small selection of cognitive load measures have been applied, sparsely. Overall, the theory’s evolution and recent themes in CLT appear to have had limited impact on CER so far. We recommend that studies in CER explain which version of the theory they use and why; clearly distinguish between load components (e.g., intrinsic and extraneous load); phrase hypotheses in terms of load components
+              a priori
+              ; look further into validating different measures of cognitive load; accompany cognitive load measures with complementary constructs, such as motivation; and explore themes such as collaborative CLT and individual differences in working-memory capacity.</dcterms:abstract>
+        <dc:date>2022-12-31</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Cognitive Load Theory in Computing Education Research</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dl.acm.org/doi/10.1145/3483843</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:52:50</dcterms:dateSubmitted>
+        <dc:rights>https://www.acm.org/publications/policies/copyright_policy#Background</dc:rights>
+        <bib:pages>1-27</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1946-6226,%201946-6226">
+        <prism:volume>22</prism:volume>
+        <dc:title>ACM Transactions on Computing Education</dc:title>
+        <dc:identifier>DOI 10.1145/3483843</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>ACM Trans. Comput. Educ.</dcterms:alternative>
+        <dc:identifier>ISSN 1946-6226, 1946-6226</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10648-023-09782-w">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>35</prism:volume>
+                <dc:title>Educational Psychology Review</dc:title>
+                <dc:identifier>DOI 10.1007/s10648-023-09782-w</dc:identifier>
+                <prism:number>2</prism:number>
+                <dcterms:alternative>Educ Psychol Rev</dcterms:alternative>
+                <dc:identifier>ISSN 1040-726X, 1573-336X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Ouhao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paas</foaf:surname>
+                        <foaf:givenName>Fred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sweller</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity</dc:title>
+        <dcterms:abstract>Abstract
+            Educational researchers have been confronted with a multitude of definitions of task complexity and a lack of consensus on how to measure it. Using a cognitive load theory-based perspective, we argue that the task complexity that learners experience is based on element interactivity. Element interactivity can be determined by simultaneously considering the structure of the information being processed and the knowledge held in long-term memory of the person processing the information. Although the structure of information in a learning task can easily be quantified by counting the number of interacting information elements, knowledge held in long-term memory can only be estimated using teacher judgment or knowledge tests. In this paper, we describe the different perspectives on task complexity and present some concrete examples from cognitive load research on how to estimate the levels of element interactivity determining intrinsic and extraneous cognitive load. The theoretical and practical implications of the cognitive load perspective of task complexity for instructional design are discussed.</dcterms:abstract>
+        <dc:date>06/2023</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10648-023-09782-w</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:52:31</dcterms:dateSubmitted>
+        <bib:pages>63</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="http://journal.frontiersin.org/article/10.3389/fpsyg.2017.01997/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1664-1078"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klepsch</foaf:surname>
+                        <foaf:givenName>Melina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schmitz</foaf:surname>
+                        <foaf:givenName>Florian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seufert</foaf:surname>
+                        <foaf:givenName>Tina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Development and Validation of Two Instruments Measuring Intrinsic, Extraneous, and Germane Cognitive Load</dc:title>
+        <dc:date>2017-11-16</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journal.frontiersin.org/article/10.3389/fpsyg.2017.01997/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:50:56</dcterms:dateSubmitted>
+        <bib:pages>1997</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1664-1078">
+        <prism:volume>8</prism:volume>
+        <dc:title>Frontiers in Psychology</dc:title>
+        <dc:identifier>DOI 10.3389/fpsyg.2017.01997</dc:identifier>
+        <dcterms:alternative>Front. Psychol.</dcterms:alternative>
+        <dc:identifier>ISSN 1664-1078</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://link.springer.com/10.3758/s13428-013-0334-1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1554-3528"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leppink</foaf:surname>
+                        <foaf:givenName>Jimmie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paas</foaf:surname>
+                        <foaf:givenName>Fred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Der Vleuten</foaf:surname>
+                        <foaf:givenName>Cees P. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Gog</foaf:surname>
+                        <foaf:givenName>Tamara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Merriënboer</foaf:surname>
+                        <foaf:givenName>Jeroen J. G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Development of an instrument for measuring different types of cognitive load</dc:title>
+        <dc:date>12/2013</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.3758/s13428-013-0334-1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:50:01</dcterms:dateSubmitted>
+        <dc:rights>http://www.springer.com/tdm</dc:rights>
+        <bib:pages>1058-1072</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1554-3528">
+        <prism:volume>45</prism:volume>
+        <dc:title>Behavior Research Methods</dc:title>
+        <dc:identifier>DOI 10.3758/s13428-013-0334-1</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Behav Res</dcterms:alternative>
+        <dc:identifier>ISSN 1554-3528</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="https://www.tandfonline.com/doi/full/10.1207/S15326985EP3801_8">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0046-1520,%201532-6985"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paas</foaf:surname>
+                        <foaf:givenName>Fred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tuovinen</foaf:surname>
+                        <foaf:givenName>Juhani E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tabbers</foaf:surname>
+                        <foaf:givenName>Huib</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Gerven</foaf:surname>
+                        <foaf:givenName>Pascal W. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Cognitive Load Measurement as a Means to Advance Cognitive Load Theory</dc:title>
+        <dc:date>2003-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tandfonline.com/doi/full/10.1207/S15326985EP3801_8</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-10-23 19:48:51</dcterms:dateSubmitted>
+        <bib:pages>63-71</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0046-1520,%201532-6985">
+        <prism:volume>38</prism:volume>
+        <dc:title>Educational Psychologist</dc:title>
+        <dc:identifier>DOI 10.1207/S15326985EP3801_8</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Educational Psychologist</dcterms:alternative>
+        <dc:identifier>ISSN 0046-1520, 1532-6985</dc:identifier>
+    </bib:Journal>
+</rdf:RDF>
