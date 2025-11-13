@@ -14,6 +14,8 @@ Computer Science students are taught that algorithms need to be implemented and 
 
 Okuboyejo, O.Y., Ewert, S., Sanders, I. (2021). Goofs in the Class: Students’ Errors and Misconceptions When Learning Regular Expressions. In: Wells, G., Nxozi, M., Tait, B. (eds) ICT Education. SACLA 2020. Communications in Computer and Information Science, vol 1518. Springer, Cham. https://doi.org/10.1007/978-3-030-92858-2_4
 
+For some unknown reason, can't open off campus
+
 ---
 
 Pillay, Nelishia. "Learning difficulties experienced by students in a course on formal languages and automata theory." ACM SIGCSE Bulletin 41.4 (2010): 48-52. https://dl-acm-org.ezproxy.emich.edu/doi/pdf/10.1145/1709424.1709444
@@ -46,9 +48,6 @@ Found that the usage of simulation tools helps improve students' understanding o
 
 ---
 
-M. Vijayalaskhmi and K. G. Karibasappa, "Activity based teaching learning in formal languages and automata theory - An experience," 2012 IEEE International Conference on Engineering Education: Innovative Practices and Future Trends (AICERA), Kottayam, India, 2012, pp. 1-5, https://doi.org/10.1109/AICERA.2012.6306722.
-
-
----
-
 Mane, Dadaso T., Sadanand S. Howal, and Varsha T. Lokare. "Problem-based Learning using Simulation Tools for Automata Theory." Journal of Engineering Education Transformations, Special Issue (2016). https://sciresol.s3.us-east-2.amazonaws.com/srs-j/jeet/pdf/volume999/'specialissue/JEET1296.pdf
+
+Suggests that students learn best, especially with deeply abstract topics, when they are actively learning instead of passively receiving information.
