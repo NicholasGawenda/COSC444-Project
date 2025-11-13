@@ -1,22 +1,16 @@
 This is just a list of papers I've found. I've not thoroughly read them or anything ... yet
 
-Weidmann, P. K. (2003). Perceptions of teaching and learning automata theory in a college-level computer science course (Order No. 3107401). Available from ProQuest Dissertations & Theses Global. (305294877). http://ezproxy.emich.edu/login?url=https://www.proquest.com/dissertations-theses/perceptions-teaching-learning-automata-theory/docview/305294877/se-2
-
-J. Silva, B. Silva Junior, S. Cavalheiro, and L. Foss. " Exploring Automata Theory with an Educational Activity Using Graph Grammar for K-12 Education", in Anais do XXXV Simpósio Brasileiro de Informática na Educação, Rio de Janeiro/RJ, 2024, pp. 329-342, doi: https://doi.org/10.5753/sbie.2024.242502. 
-
-https://doi.org/10.5753/sbie.2024.242502
-
 Sanders, Ian, Colin Pilkington, and Wynand Van Staden. "Errors made by students when designing finite automata." 44th Annual SACLA Conference. Vol. 44. 2015. https://www.researchgate.net/profile/Ruth-Wario/publication/283222961_Attitudes_Towards_Computer_Usage_as_Predictors_of_the_Classroom_Integration_of_I_CT_at_a_Rura_l_South_African_University/links/571f654c08aed056fa234726/Attitudes-Towards-Computer-Usage-as-Predictors-of-the-Classroom-Integration-of-I-CT-at-a-Rura-l-South-African-University.pdf#page=117
 
-Martınez, Mariano, et al. "MTSolution: A visual and interactive tool for a formal languages and automata course." (2007). https://www.researchgate.net/profile/Liliana-Favre/publication/263973948_MTSolution_A_Visual_and_Interactive_Tool_for_a_Formal_Languages_and_Automata_Course/links/0deec53c7a685487bf000000/MTSolution-A-Visual-and-Interactive-Tool-for-a-Formal-Languages-and-Automata-Course.pdf
+---
 
-Veverka, Jan. "Generator of Exercises on Automata and Grammars." (2024). https://dspace.cuni.cz/bitstream/handle/20.500.11956/192876/130402191.pdf?sequence=1&isAllowed=y
+Morazán, Marco T., and Rosario Antunez. “Functional Automata - Formal Languages for Computer Science Students.” Electronic Proceedings in Theoretical Computer Science, vol. 170, Dec. 2014, pp. 19–32. Crossref, https://doi.org/10.4204/eptcs.170.2.
 
-Tran, Quoc-Nam. "Interactive symbolic software for teaching formal languages, automata and beyond." Journal of Computing in Colleges 22.4 (2007): 130. https://www.researchgate.net/profile/Quoc-Nam-Tran/publication/234810854_Interactive_symbolic_software_for_teaching_formal_languages_automata_and_beyond/links/59949033aca272ec9087fd94/Interactive-symbolic-software-for-teaching-formal-languages-automata-and-beyond.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9
+The existence of this perception is not completely absurd since students are asked to design and prove correct machines/grammars without being able to experiment nor get immediate feed- back, as they do in any programming course, which is essential in a learning context and needs to be timely (the sooner the better) [9]. Computer Science students are accustomed to immediate feedback as they routinely use compilers and interpreters that provide error messages and warnings. Moreover, machines/grammars are representations of programs. Thus, in essence, designing machines and grammars without being able to test them goes against the grain of what students have learned in programming courses. The same holds true when arguing that a problem is decidable. In our experience, the inability to implement state machines and grammars results in inexperienced students submitting solutions that are incorrect even when an exercise is relatively simple. Experimentation and immediate feedback are key components to learning that are seldom found in the automata theory classroom.
 
-Tijana Minić and Andrés M. Garced. 2024. Grammar Derivation Visualization in Automata Theory. In Companion Proceedings of the 2024 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH Companion ’24), October 20–25, 2024, Pasadena, CA, USA. ACM, New York, NY, USA, 3 pages. https://doi.org/10.1145/3689491.3689977
+Computer Science students are taught that algorithms need to be implemented and tested. This is especially true when the student has an intuition of how an algorithm ought to proceed, but is uncertain of all the details–the typical case when a student starts thinking about a constructive proof. Without feedback obtained from implementation and testing, it is common for students to try to prove the correctness of a machine/grammar that is incorrect. This leads to their work being marked down by an instructor and, in turn, to frustration and apathy for the material.
 
-J. Caldwell, Ph.K.F. H¨olzenspies, P. Achten: Trends in Functional Programming in Education (TFPIE 2014) EPTCS 170, 2014, pp. 19–32, https://doi.org/10.4204/EPTCS.170.2
+---
 
 Okuboyejo, O.Y., Ewert, S., Sanders, I. (2021). Goofs in the Class: Students’ Errors and Misconceptions When Learning Regular Expressions. In: Wells, G., Nxozi, M., Tait, B. (eds) ICT Education. SACLA 2020. Communications in Computer and Information Science, vol 1518. Springer, Cham. https://doi.org/10.1007/978-3-030-92858-2_4
 
