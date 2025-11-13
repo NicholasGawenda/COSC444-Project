@@ -1,0 +1,53 @@
+:root{
+    --bgc-primary: rgb(2, 95, 95);
+    --bgc-secondary: #9be6f3;
+
+    --accent-primary: white;
+    --accent-secondary:lightblue;
+
+    --text-primary: black;
+    --text-secondary: lightgray;
+}
+body{
+    background-image: linear-gradient(var(--bgc-primary),var(--bgc-secondary));
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: white solid 30px;
+    border-radius: 15px;
+    border-style: outset;
+}
+h1, h2, h3, h4 ,h5, h6, p{
+    color: var(--accent-primary);
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+textarea{
+width: 32rem;
+height: 8rem;
+border-radius: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submitButton{
+display: block;
+justify-content: center;
+text-align: center;
+margin: 0 auto;
+width: 12rem;
+height: 4rem;
+border-radius: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submitButton:hover{
+    background-color: var(--bgc-secondary);
+    transform:scale(1.08) ;
+}
+.submitButton:active{
+    background-color: var(--accent-secondary);
+    transform: scale(0.98);
+}
