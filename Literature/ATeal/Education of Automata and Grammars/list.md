@@ -24,23 +24,12 @@ Found that students' main barrier to understanding was a lack of mature problem-
 
 ---
 
-Daiki Isayama, Masaki Ishiyama, Raissa Relator, and Koichi Yamazaki. 2016. Computer Science Education for Primary and Lower Secondary School Students: Teaching the Concept of Automata. ACM Trans. Comput. Educ. 17, 1, Article 2 (March 2017), 28 pages. https://doi-org.ezproxy.emich.edu/10.1145/2940331
-
-
----
-
 Mostafa Mohammed and Clifford A. Shaffer. 2024. Teaching Formal Languages through Programmed Instruction. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 867–873. https://doi-org.ezproxy.emich.edu/10.1145/3626252.3630940
 
 Suggests the usage of multiple-choice questions can be effective to creating easy to answer questions that can keep students engaged.
 
 
 ---
-
-Jordaan, S. et al. 2024. Migrating teaching of automata theory to a digital platform. South African Computer Journal. 36, 2 (Dec. 2024). DOI:https://doi.org/10.18489/sacj.v36i2.17844.
-
-
----
-
 
 G. S. de Souza, C. Olivete, R. C. Messias Correia and R. E. Garcia, "Teaching-learning methodology for formal languages and automata theory," 2015 IEEE Frontiers in Education Conference (FIE), El Paso, TX, USA, 2015, pp. 1-7, https://doi.org/10.1109/FIE.2015.7344185.
 
