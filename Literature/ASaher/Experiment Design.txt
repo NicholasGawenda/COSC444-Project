@@ -2,6 +2,6 @@ Experiment Design
 Divide learners into proficient with right languages and not proficient with right languages (1 & 2)
 dive those groups into 2 more groups (A & B)
 Group 1A & 2A: introduce right-grammar first then left grammars 
-Group 1B & 2B: introduce left-grammar first then left grammars
+Group 1B & 2B: introduce left-grammar first then right grammars
 Ask all groups to answer Multiple choice questions while doing another task simultaneously (dual task methodology)
 researcher would measure the response time 
