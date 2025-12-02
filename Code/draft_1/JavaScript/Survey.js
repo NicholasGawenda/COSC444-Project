@@ -1,0 +1,115 @@
+    var jsPsych1 = initJsPsych({
+
+        display_element: document.getElementsByClassName('left')[0],
+        on_finish: function() {
+        jsPsych1.data.displayData();
+    }});
+    var jsPsych2 = initJsPsych({
+        display_element: document.getElementsByClassName('right')[0],
+        on_finish: function() {
+        jsPsych2.data.displayData();
+    }});
+    var lefttimeline = [];
+    var righttimeline = [];
+    var welcome = {
+        type:jsPsychHtmlKeyboardResponse,
+        stimulus: '<h1>Welcome to the experiment</h1><p>Press any key to begin.</p>'
+    }
+    var rightToLeftCheck = {
+        type:jsPsychHtmlKeyboardResponse,
+        stimulus: '<h2>Some Info about you first</h2><p>Before we begin are you proficient in any languages that are read right-to-left (Arabic, Farsi, Hindi, etc.)?</p><p>Press y or n to continue.</p>',
+        choices: ['y', 'n'],
+    }
+
+    var question1 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #1", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+    var question2 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #2", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+    var question3 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #3", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+    var question4 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #4", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+     var question5 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #5", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+    var question6 = {
+            type: jsPsychSurveyText,
+            questions: [
+                {prompt: "question #6", placeholder: 'Type answer here', required: true},
+            ],
+            data: {task: 'survey_question'}
+        }
+     var question7 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #7", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+     var question8 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #8", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+     var question9 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #9", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+     var question10 = {
+        type: jsPsychSurveyText,
+        questions: [
+            {prompt: "question #10", placeholder: 'Type answer here', required: true},
+        ],
+        data: {task: 'survey_question'}
+    }
+    var question_bank = {
+        timeline: [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10],
+    }
+    var secondarytask ={
+        type:jsPsychHtmlKeyboardResponse,
+        stimulus: `
+                <div style="text-align: center;">
+                    <h2>Secondary task</h2>
+                    <p> while answering the questions, Numbers will appear on this screen. </p>
+                    <p>Pay attention to them - you'll be asked to recall them occasionally</p>
+                    <p>Press any key to begin.</p>
+                </div>
+                    `,
+                    choices: "ALL_KEYS"
+    };
+    lefttimeline.push(welcome);
+    lefttimeline.push(rightToLeftCheck);
+    lefttimeline.push(question_bank);
+    jsPsych1.run(lefttimeline);
+    righttimeline.push(secondarytask);
+    jsPsych2.run(righttimeline);
+    

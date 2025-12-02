@@ -11,15 +11,12 @@
 body{
     background-image: linear-gradient(var(--bgc-primary),var(--bgc-secondary));
     background-attachment: fixed;
-    height: 100vh;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    border: white solid 30px;
+    align-self: start;
+    border: white solid 20px;
     border-radius: 15px;
-    border-style: outset;
 }
 h1, h2, h3, h4 ,h5, h6, p{
     color: var(--accent-primary);
@@ -50,4 +47,26 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .submitButton:active{
     background-color: var(--accent-secondary);
     transform: scale(0.98);
+}
+.container{
+    display:inline-flex;
+    flex-direction: row;
+}
+.left{
+    background-image: linear-gradient(silver,gray);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    width: 40vw;
+}
+.right{
+    background-image: linear-gradient(silver,gray);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    width: 40vw;
 }

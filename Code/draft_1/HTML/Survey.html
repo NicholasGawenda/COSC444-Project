@@ -10,107 +10,11 @@
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body>
-<!-- <div id="survey question">
-    <h1>SURVEY</h1>
-    <h2>TOPIC</h2><br>
-    <p id="question#" class="questionCounter">QUESTION #</p>
-    <p id="question" class="questionContent">QUESTION CONTENTS</p>
-    <textarea id="userinput" placeholder="  Type your answer here"></textarea><br>
-    <button class="submitButton">BUTTON FOR DOING THINGS<br>MAYBE SUBMITTING</button>
-</div> -->
+    <div class = "container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>    
 </body>
-<script>
-    var jsPsych = initJsPsych({
-    onfinish: function() {
-        jsPsych.data.displayData();
-    }});
-    var timeline=[];
-
-    var welcome = {
-        type:jsPsychHtmlKeyboardResponse,
-        stimulus: '<h1>Welcome to the experiment</h1><p>Press any key to begin.</p>'
-    }
-    var rightToLeftCheck = {
-        type:jsPsychHtmlKeyboardResponse,
-        stimulus: '<h2>Some Info about you first</h2><p>Before we begin are you proficient in any languages that are read right-to-left (Arabic, Farsi, Hindi, etc.)?</p><p>Press y or n to continue.</p>',
-        choices: ['y', 'n'],
-    }
-    var question1 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #1", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-    var question2 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #2", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-    var question3 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #3", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-    var question4 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #4", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-     var question5 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #5", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-    var question6 = {
-            type: jsPsychSurveyText,
-            questions: [
-                {prompt: "question #6", placeholder: 'Type answer here', required: true},
-            ],
-            data: {task: 'survey_question'}
-        }
-     var question7 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #7", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-     var question8 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #8", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-     var question9 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #9", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-     var question10 = {
-        type: jsPsychSurveyText,
-        questions: [
-            {prompt: "question #10", placeholder: 'Type answer here', required: true},
-        ],
-        data: {task: 'survey_question'}
-    }
-    var question_bank = {
-        timeline: [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10],
-    }
-    timeline.push(welcome);
-    timeline.push(rightToLeftCheck);
-    timeline.push(question_bank);
-    jsPsych.run(timeline);
+<script src="../JavaScript/Survey.js">
 </script>
 </html>
