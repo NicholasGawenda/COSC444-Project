@@ -136,7 +136,7 @@
         stimulus: '<div  style="height:300px;"></div>',
         choices:"NO_KEYS",
         trial_duration: function(){
-            return Math.random() * 1000 + 1500;
+            return Math.random() * 1000 + 1000;
         }
     };
 
@@ -161,11 +161,11 @@
 
     var numbergen = {
         timeline:[visual_stimulus, stimulus_CD],
-        repetitions: 100
+        repetitions: 5
     }
     var number_prompt = {
         timeline:[numbergen, trial_prompt],
-        repetitions:100
+        repetitions:5
     }
 
     lefttimeline.push(welcome);
