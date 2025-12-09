@@ -1,54 +1,142 @@
 [
   {
-    "qTopic": "Grammars: Multiple Choice",
-    "qTitle": "Left grammars vs Right grammars",
-    "qText": "Grammar is the study of the rules of grammatical structure.\nA right-to-left grammar is a sentence structure in which the subject precedes the verb.\nA left-to-right grammar is a sentence structure in which the verb precedes the subject.\n\"I ate an apple.\" is a left-to-right sentence.\n\"An apple was eaten by me.\" is what kind of grammar?",
+    "qTopic": "Instructions",
+    "qTitle": "Welcome to the Study",
+    "qText": "You are about to participate in a dual-task study.\n\nPRIMARY TASK: Answer the grammar questions presented on screen.\n\nSECONDARY TASK: A large button will occasionally appear randomly on the screen. You must click it AS FAST AS POSSIBLE whenever you see it.",
     "qType": "Multiple Choice",
     "qOptions": {
-      "Left": "Left-to-Right Grammar",
-      "Right": "Right-to-Left Grammar"
-    }
+      "Start": "I understand. Start the study."
+    },
+    "qTask": false
+  },
+  {
+    "qTopic": "Introduction",
+    "qTitle": "Before we begin",
+    "qText": "What is your first language?",
+    "qType": "Short Answer",
+    "qOptions": {
+    },
+    "qTask": false
+  },
+  {
+    "qTopic": "Introduction",
+    "qTitle": "Watch this Video",
+    "qText": "bb27VrOc2JA",
+    "qType": "Video",
+    "qOptions": {},
+    "qTask": false
   },
   {
     "qTopic": "Grammars: Multiple Choice",
     "qTitle": "Left grammars vs Right grammars",
-    "qText": "What kind of grammar is this?\n\"To school, I went.\"?",
+    "qText": "Grammar is the study of the rules of grammatical structure.\nA right-to-left grammar is a sentence structure in which the subject precedes the verb.\nA left-to-right grammar is a sentence structure in which the verb precedes the subject.\n'I ate an apple.' is a left-to-right sentence.\n'An apple was eaten by me.' is what kind of grammar?",
     "qType": "Multiple Choice",
     "qOptions": {
       "Left": "Left-to-Right Grammar",
       "Right": "Right-to-Left Grammar"
-    }
+    },
+    "qTask": true
+  },
+  {
+    "qTopic": "Grammars: Multiple Choice",
+    "qTitle": "Left grammars vs Right grammars",
+    "qText": "What kind of grammar is this?\n'To school, I went.'",
+    "qType": "Multiple Choice",
+    "qOptions": {
+      "Left": "Left-to-Right Grammar",
+      "Right": "Right-to-Left Grammar"
+    },
+    "qTask": true
   },
   {
     "qTopic": "Grammars: Short Answer",
     "qTitle": "Left grammars vs Right grammars",
     "qText": "Write a right-to-left grammar sentence expressing someone eating something.",
     "qType": "Short Answer",
-    "qOptions": {
-    }
+    "qOptions": {},
+    "qTask": true
   },
   {
     "qTopic": "Grammars: Short Answer",
     "qTitle": "Left grammars vs Right grammars",
     "qText": "Write a left-to-right grammar sentence expressing someone walking an animal.",
     "qType": "Short Answer",
-    "qOptions": {
-    }
+    "qOptions": {},
+    "qTask": true
   },
   {
     "qTopic": "Grammars: Short Answer",
     "qTitle": "Left grammars vs Right grammars",
     "qText": "Write a left-to-right grammar sentence expressing someone eating something.",
     "qType": "Short Answer",
-    "qOptions": {
-    }
+    "qOptions": {},
+    "qTask": true
   },
   {
     "qTopic": "Grammars: Short Answer",
     "qTitle": "Left grammars vs Right grammars",
     "qText": "Write a right-to-left grammar sentence expressing someone eating something.",
     "qType": "Short Answer",
+    "qOptions": {},
+    "qTask": true
+  },
+  {
+    "qTopic": "Segment 2",
+    "qTitle": "Pattern Rules",
+    "qText": "We will now look at 'Grammars'.\n\nIn this context, a Grammar is just a rule for how to build a line of text.\n\nSome rules add characters to the Left side. Some rules add characters to the Right side.",
+    "qType": "Multiple Choice",
     "qOptions": {
-    }
+      "Continue": "I am ready."
+    },
+    "qTask": false
+  },
+  {
+    "qTopic": "Introduction",
+    "qTitle": "Watch this Video",
+    "qText": "bb27VrOc2JA",
+    "qType": "Video",
+    "qOptions": {},
+    "qTask": false
+  },
+  {
+    "qTopic": "Grammar Direction",
+    "qTitle": "Growing a Line",
+    "qText": "Imagine a rule where you must always add new blocks to the RIGHT side of a line.\n\nStart: [A]\nStep 1: [A]+[A]\nStep 2: [A][A]+[A]\n\nIs this rule building TO the Left or the Right?",
+    "qType": "Multiple Choice",
+    "qOptions": {
+      "Left": "Left",
+      "Right": "Right"
+    },
+    "qTask": true
+  },
+  {
+    "qTopic": "Grammar Direction",
+    "qTitle": "The Rule Maker",
+    "qText": "In grammars, we use a Capital Letter (like 'S') to mark the 'active' side where new things are added.\n\nIf the rule is: S -> aS\n\nThe 'S' is on the Right side. This means it is a Right-Linear Grammar.\n\nBased on this, where does the 'S' sit in a Left-Linear Grammar?",
+    "qType": "Multiple Choice",
+    "qOptions": {
+      "Left": "On the Left (S -> Sa)",
+      "Right": "On the Right (S -> aS)"
+    },
+    "qTask": true
+  },
+  {
+    "qTopic": "Grammar Identification",
+    "qTitle": "Identifying the Rule",
+    "qText": "Look at this specific rule:\n\nA -> Ab\n\nThe Capital Letter 'A' (the active part) is on the Left side of the little 'b'.\n\nIs this a Left-Linear or Right-Linear grammar?",
+    "qType": "Multiple Choice",
+    "qOptions": {
+      "Left": "Left-Linear",
+      "Right": "Right-Linear"
+    },
+    "qTask": true
+  },
+  {
+    "qTopic": "Grammar Identification",
+    "qTitle": "Fill in the blank",
+    "qText": "If a grammar adds new letters to the far end of the string, effectively growing the word from left-to-right, we call it a ______-Linear Grammar.",
+    "qType": "Short Answer",
+    "qOptions": {},
+    "qTask": true
   }
 ]
