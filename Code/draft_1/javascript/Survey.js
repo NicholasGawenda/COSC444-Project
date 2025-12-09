@@ -5,6 +5,9 @@ const SHORT_ANSWER = "Short Answer";
 let currentQuestionIndex = 0;
 let myQuestions = [];
 let userAnswers = []; // Store what the user typed/clicked
+let reactionTimes = [];
+let blueBtnTimer = null;
+let blueBtnStartTime = 0;
 
 // question object structure
 class Question {
@@ -31,29 +34,72 @@ class Question {
 
 */
 
+function ScheduleBlueButton() {
+    let randomDelay = Math.random() * 5000 + 3000;
+    blueBtnTimer = setTimeout(() => {
+        let btn = document.getElementById("blue_task_button");
+        if(btn) {
+            btn.hidden = false;
+            blueBtnStartTime = performance.now();
+        }
+    }, randomDelay);
+}
+
+function HandleBlueTaskClick() {
+    let btn = document.getElementById("blue_task_button");
+    let stats = document.getElementById("stats_box");
+    let endTime = performance.now();
+    let delay = Math.round(endTime - blueBtnStartTime);
+
+    btn.hidden = true;
+
+    reactionTimes.push({
+        timestamp: new Date().toISOString(),
+        reaction_ms: delay,
+        during_question_index: currentQuestionIndex
+    });
+
+    stats.innerText = "Last Reaction: "+delay+"ms\n"+"Q:"+(currentQuestionIndex + 1) + "/" + myQuestions.length;
+    stats.style.color = delay > 3000 ? "red" : "#0f0";
+
+    ScheduleBlueButton();
+}
+
 // Rendering
 function RenderQuestion() {
     // check if the survey is completed already.
     if (currentQuestionIndex >= myQuestions.length) {
-        document.getElementById("survey").innerHTML = "<h2>Survey Complete!</h2><p>Check console for answers.</p>";
+        clearTimeout(blueBtnTimer);
+        document.getElementById("blue_task_button").hidden = true;
+        document.getElementById("stats_box").innerText = "Survey complete";
+
+        document.getElementById("button").hidden = true;
+        document.getElementById("options").hidden = true;
+        document.getElementById("user_text").hidden = true;
+        document.getElementById("question_number").hidden = true;
+        document.getElementById("survey").innerHTML = "<h2>Survey Complete!</h2><p>Check console for answers.json</p>";
         console.log("Final Answers:", userAnswers);
+        document.getElementById("survey").innerHTML = "<h2>Survey Complete!</h2>";
+        DownloadAnswers();
         return;
     }
 
+
     let question = myQuestions[currentQuestionIndex];
 
-    // Update static text based on current question
-    document.getElementById("topic").innerText = question.qTopic;
+// Update static text based on current question
+    document.getElementById("topic").innerText = "Topic: " + question.qTopic;
     document.getElementById("question_title").innerText = question.qTitle;
-    document.getElementById("question_text").innerText = question.qText;
-
-    // Handle Input Areas
-    // The textarea:
+    document.getElementById("question_text").innerText = "Q: " + question.qText;
+    document.getElementById("question_number").innerText = ("Question " + (currentQuestionIndex + 1) + "/" + myQuestions.length);
+    document.getElementById("question_number").hidden = false;
+// Handle Input Areas
+// The textarea:
     let uTextInput = document.getElementById("user_text");
-    // The div for radio buttons:
+// The div for radio buttons:
     let uOptions = document.getElementById("options");
 
-    // clear previous inputs
+// clear previous inputs
     uTextInput.value = "";
     uOptions.innerHTML = "";
 
@@ -89,6 +135,7 @@ function RenderQuestion() {
             uOptions.appendChild(label);
             uOptions.appendChild(br);
         }
+
     }
 }
 
@@ -124,6 +171,7 @@ function HandleNextButtonClick() {
         answer: answer
     });
 
+
     // next question
     currentQuestionIndex++;
     RenderQuestion();
@@ -150,6 +198,27 @@ async function LoadQuestions() {
     }
 }
 
+function DownloadAnswers() {
+    console.log("prepping answers for download...");
+
+    const studyData = {
+        survey_answers: userAnswers,
+        extraneous_load_metrics: reactionTimes
+    };
+
+    const textContent = JSON.stringify(studyData, null, 2);
+    const blob = new Blob([textContent], {type: "text/plain"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "answers.json"; // filename
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+
 // async so that the questions file can load
 window.onload = async function () {
     console.log("Loading questions...");
@@ -161,6 +230,12 @@ window.onload = async function () {
     if (myQuestions.length > 0) {
         let sButton = document.getElementById("button");
         if (sButton) sButton.onclick = HandleNextButtonClick;
+
+        let blueButton = document.getElementById("blue_task_button");
+        if (blueButton) {
+            blueButton.onclick = HandleBlueTaskClick;
+            ScheduleBlueButton();
+        }
 
         RenderQuestion();
         console.log("Survey loaded.");
