@@ -1,21 +1,21 @@
-const MULTIPLE_CHOICE = "Multiple Choice";
-const SHORT_ANSWER = "Short Answer";
-const VIDEO_EMBED = "Video";
-const EMAIL = "xresearcher@emich.edu";
-const DELAY_SCALE = 15000;
-const DELAY_OFFSET = 8000;
+const MULTIPLE_CHOICE = "Multiple Choice"; // Task type symbolic constant
+const SHORT_ANSWER = "Short Answer"; // Task type symbolic constant
+const VIDEO_EMBED = "Video"; // Task type symbolic constant
+const EMAIL = "xresearcher@emich.edu"; // Mailto EMail
+const DELAY_SCALE = 15000; // The scale of the button delay timer
+const DELAY_OFFSET = 8000; // The offset of the button delay timer
 
 // state variables
-let currentQuestionIndex = 0;
-let myQuestions = [];
+let currentQuestionIndex = 0; // Keep track of the current question (for display)
+let myQuestions = []; // Store questions from JSON fil
 let userAnswers = []; // Store what the user typed/clicked
-let reactionTimes = [];
-// note that the button used to be blue but now its less blue by about 100%
-let blueBtnTimer = null;
-let blueBtnStartTime = 0;
+let reactionTimes = []; // Store reaction times for each question
+// note that the button used to be blue, but now it's less blue by about 100%
+let blueBtnTimer = null; // Initialize to null, and then LAMBDA!!! (on timer)
+let blueBtnStartTime = 0; // Keep track of the button lifetime
 let isTaskRunning = false;// determined by the task parameter of questions
-let questionStartTime = 0;
-let surveyStartTime = 0;
+let questionStartTime = 0; // Keep track of the question lifetime
+let surveyStartTime = 0; // Keep track of the survey lifetime
 
 // question object structure, can probably just remove now.
 class Question {
@@ -44,6 +44,9 @@ class Question {
 
 */
 
+/*
+    ---- Dual-Task Button Handling ----
+ */
 function SummonTheBlueDemon() {
     let stats = document.createElement("div");
     stats.id = "stats_box";
@@ -65,6 +68,10 @@ function SummonTheBlueDemon() {
 
     document.body.appendChild(btn);
 }
+
+/*
+    ---- Dual-Task Button Scheduler ----
+ */
 
 function ScheduleBlueButton() {
     if (!isTaskRunning) return;
@@ -91,6 +98,10 @@ function ScheduleBlueButton() {
         }
     }, randomDelay);
 }
+
+/*
+    ---- Dual-Task Button Click Handler ----
+ */
 
 function HandleBlueTaskClick() {
     let btn = document.getElementById("blue_task_button");
@@ -122,6 +133,10 @@ function HandleBlueTaskClick() {
     ScheduleBlueButton();
 }
 
+/*
+    ---- Dual-Task Halter ----
+ */
+
 function StopTheMadness() {
     isTaskRunning = false;
     clearTimeout(blueBtnTimer);
@@ -131,7 +146,9 @@ function StopTheMadness() {
     if (stats) stats.innerText = "Task Paused";
 }
 
-// Rendering
+/*
+    ---- Rendering Questions ----
+ */
 function RenderQuestion() {
     // check if the survey is completed already.
     if (currentQuestionIndex >= myQuestions.length) {
@@ -256,7 +273,10 @@ function RenderQuestion() {
     questionStartTime = performance.now();
 }
 
-// User Interactions
+/*
+    ---- User Interactions ----
+ */
+
 function HandleNextButtonClick() {
     let question = myQuestions[currentQuestionIndex];
     let answer = null;
@@ -298,6 +318,13 @@ function HandleNextButtonClick() {
 }
 
 // fetches data from the file 'questions.json'
+/*
+    ---- Load Questions ----
+    NOTE: this function requires
+    that the HTML is run in preview
+    or whatever the option is
+    in the IDE used.
+ */
 async function LoadQuestions() {
     try {
         // ask browser to go get the file (WONT WORK UNLESS USING WEBSTORM OR SOME FORM OF LOCAL SERVER)
@@ -318,6 +345,9 @@ async function LoadQuestions() {
     }
 }
 
+/*
+    ---- Json File Creation and Download ----
+ */
 function DownloadAnswers() {
     console.log("prepping answers for download...");
 
@@ -341,6 +371,9 @@ function DownloadAnswers() {
 
 
 // async so that the questions file can load
+/*
+    ---- Initializer ----
+ */
 window.onload = async function () {
     console.log("Loading questions...");
 

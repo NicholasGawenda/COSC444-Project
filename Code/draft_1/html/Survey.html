@@ -3,26 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>COSC444 Survey</title>
+<!--
+        The style sheet was not required;
+        however, I used AI to make the survey look
+        prettier. Apparently CSS was the best
+        way of doing so, but I hardly like
+        working with it.
+
+        NOTE: The prompt was very generic, so
+        although I forgot to include it - it was
+        essentially just "Here is code for a
+        survey. Make it centered, uniformly styled,
+        and readable."
+-->
     <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
 
+
+<!--
+        I don't suggest modifying any of this,
+        as it is almost entirely reliant on
+        the underlying JS code.
+-->
+
 <div id="survey">
     <h2 id="topic">TOPIC</h2>
-
     <h4 id="question_number">Question 0/0</h4>
-
     <h3 id="question_title">TITLE</h3>
     <p id="question_text">TEXT</p>
-
     <div id="options"></div>
 
     <textarea id="user_text"></textarea>
     <br>
 
-    <button id="button">Next Question</button>
+<!--
+        changed this to continue because
+        I realized "next question"
+        doesn't really make sense for non-task
+        survey items.
+-->
+    <button id="button">Continue</button>
 </div>
 
+<!--
+        Considering moving these to a better, more
+        localized spot.
+-->
 <script type="text/javascript" src="../../Common"></script>
 <script type="text/javascript" src="../javascript/Survey.js"></script>
 </body>
