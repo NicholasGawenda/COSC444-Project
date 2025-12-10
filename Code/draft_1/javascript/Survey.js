@@ -352,7 +352,7 @@ window.onload = async function () {
         let sButton = document.getElementById("button");
         if (sButton) sButton.onclick = HandleNextButtonClick;
         // https://stackoverflow.com/questions/155188/trigger-a-button-click-with-javascript-on-the-enter-key-in-a-text-box
-        // Directly copied because deprications were driving me insane.
+        // Directly copied because "X is deprecated" comments were driving me insane.
         document.getElementById("user_text")
             .addEventListener("keyup", function (event) {
                 event.preventDefault();
