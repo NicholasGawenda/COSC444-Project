@@ -2,8 +2,8 @@ const MULTIPLE_CHOICE = "Multiple Choice";
 const SHORT_ANSWER = "Short Answer";
 const VIDEO_EMBED = "Video";
 const EMAIL = "xresearcher@emich.edu";
-const DELAY_SCALE = 5000;
-const DELAY_OFFSET = 3000;
+const DELAY_SCALE = 15000;
+const DELAY_OFFSET = 8000;
 
 // state variables
 let currentQuestionIndex = 0;
@@ -106,7 +106,7 @@ function HandleBlueTaskClick() {
     });
 
     let totalReactionTime = 0;
-    for(let i=0; i<reactionTimes.length; i++){
+    for (let i = 0; i < reactionTimes.length; i++) {
         totalReactionTime += reactionTimes[i].reaction_ms;
     }
     let avgReactionTime = Math.round(totalReactionTime / reactionTimes.length);
@@ -351,7 +351,15 @@ window.onload = async function () {
     if (myQuestions.length > 0) {
         let sButton = document.getElementById("button");
         if (sButton) sButton.onclick = HandleNextButtonClick;
-
+        // https://stackoverflow.com/questions/155188/trigger-a-button-click-with-javascript-on-the-enter-key-in-a-text-box
+        // Directly copied because deprications were driving me insane.
+        document.getElementById("user_text")
+            .addEventListener("keyup", function (event) {
+                event.preventDefault();
+                if (event.keyCode === 13) {
+                    document.getElementById("button").click();
+                }
+            });
         SummonTheBlueDemon();
 
         surveyStartTime = performance.now();
